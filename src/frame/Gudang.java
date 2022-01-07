@@ -305,7 +305,9 @@ public class Gudang extends javax.swing.JFrame {
 
         ConfigDB.ubah("gudang","kode_gudang", kode, fieldnya, valuenya);
         JOptionPane.showMessageDialog(null,"Data Berhasil diubah");
-        ConfigDB.setTabel(tabelGudang, valuenya, lebarKolom, sql);
+        ConfigDB.setJudulTabel(tabelGudang, judulKolom);
+        ConfigDB.tampilTabel(tabelGudang, judulKolom, sql);
+        ConfigDB.setLebarKolomTabel(tabelGudang, lebarKolom);
     }//GEN-LAST:event_btnUbahActionPerformed
 
     private void btnBersihActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBersihActionPerformed
