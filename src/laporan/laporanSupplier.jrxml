@@ -34,8 +34,8 @@
 	</title>
 	<pageHeader>
 		<band height="35" splitType="Stretch">
-			<textField pattern="dd/MM/yyyy">
-				<reportElement x="455" y="0" width="100" height="20" uuid="f39cbfba-f7f8-4c9c-80ed-86126f56c468"/>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="391" y="0" width="164" height="20" uuid="f39cbfba-f7f8-4c9c-80ed-86126f56c468"/>
 				<textElement textAlignment="Right"/>
 				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
