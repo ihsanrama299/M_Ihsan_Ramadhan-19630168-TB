@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Jan 2022 pada 13.37
+-- Waktu pembuatan: 08 Jan 2022 pada 07.55
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 8.0.0
 
@@ -42,7 +42,8 @@ CREATE TABLE `barang` (
 INSERT INTO `barang` (`kode_barang`, `nama_barang`, `kategori`, `jumlah`, `keterangan`) VALUES
 ('001', 'VortexSeries VX8 Mechanical Keyboard', 'Keyboard', 53, 'new'),
 ('002', 'Logitech K120 Keyboard', 'Keyboard', 127, 'new'),
-('003', 'HP M160 Gaming Mouse', 'Mouse', 13, 'new');
+('003', 'HP M160 Gaming Mouse', 'Mouse', 13, 'new'),
+('004', 'ACER KG241QS LED Monitor', 'Monitor', 103, '');
 
 -- --------------------------------------------------------
 
