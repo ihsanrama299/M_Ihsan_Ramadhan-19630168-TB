@@ -291,6 +291,7 @@ public class Gudang extends javax.swing.JFrame {
         ConfigDB.hapus("gudang", "kode_gudang", txtKode.getText());
         JOptionPane.showMessageDialog(null,"Data Berhasil dihapus");
         ConfigDB.setTabel(tabelGudang, judulKolom, lebarKolom, sql);
+        ConfigDB.setLebarKolomTabel(tabelGudang, lebarKolom);
     }//GEN-LAST:event_btnHapusActionPerformed
 
     private void btnUbahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUbahActionPerformed

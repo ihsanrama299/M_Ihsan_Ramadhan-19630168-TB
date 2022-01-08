@@ -343,6 +343,7 @@ public class Supplier extends javax.swing.JFrame {
         
         ConfigDB.setJudulTabel(tabelSupplier, judulKolom);
         ConfigDB.tampilTabel(tabelSupplier, judulKolom, sql);
+        ConfigDB.setLebarKolomTabel(tabelSupplier, lebarKolom);
     }//GEN-LAST:event_txtCariKeyReleased
 
     private void btnCetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCetakActionPerformed
